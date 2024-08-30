@@ -31,7 +31,19 @@
     </nav>
 
     <main>
-           
+<!-- ############################
+      ############################
+      ESTE ES LA TABLA DE ENCUESTA 
+      #############################
+      ##############################-->
+
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-primary me-md-2" type="button" href="indexGestionEncuesta.html">Encuestas</button>
+        <button class="btn btn-primary" type="button" href="indexGestionCapitulos.html">Capitulos</button>
+        <button class="btn btn-primary" type="button">Preguntas</button>
+        <button class="btn btn-primary" type="button">Respuestas</button>
+        <button class="btn btn-primary" type="button">Button</button>
+      </div>
         <table class="table">
           <thead>
             <tr>
@@ -44,9 +56,10 @@
             <tr>
               <th scope="row">1</th>
               <td>Mark</td>
-              <td> <i class="bi bi-pencil-fill" title="editar"></i>
-                <i class="bi bi-trash3-fill" title="Eliminar"></i>
-                <i class="bi bi-plus-square-fill" title="agregar capitulo"></i>
+              <td>
+                <i class="bi bi-pencil-fill" title="Editar" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;"></i>
+                <i class="bi bi-trash3-fill" title="Eliminar" style="cursor: pointer;"></i>
+                <i class="bi bi-plus-square-fill" title="Agregar capitulo" style="cursor: pointer;"></i>
 
               </td>
               
@@ -66,20 +79,34 @@
         </table>
 
   
-  <!-- Modal -->
+  <!-- #####################
+   #########################
+              Modal
+    ########################
+    ########################-->
+
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Editar Encuesta </h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Editar Nombre de la encuesta:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Editar Descripción de la encuesta:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Actualizar encuesta</button>
         </div>
       </div>
     </div>

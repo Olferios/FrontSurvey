@@ -48,6 +48,9 @@ main {
     padding: 0 20px; /* Añade padding lateral para evitar que el contenido toque los bordes */
     margin-bottom: 30px; /* Añade margen inferior para separación */
 }
+.service-icon{
+    cursor: pointer;
+}
 
 .container {
     
