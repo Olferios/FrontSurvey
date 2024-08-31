@@ -22,3 +22,17 @@ document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(button => {
       });
     });
   });
+ 
+  document.querySelectorAll('button[data-bs-toggle="collapse"]').forEach(button => {
+    button.addEventListener('click', function () {
+      // Eliminar clase 'btn-active' de todos los botones
+      document.querySelectorAll('button[data-bs-toggle="collapse"]').forEach(btn => btn.classList.remove('btn-active'));
+      
+      // Agregar clase 'btn-active' solo al botón clicado
+      if (!this.classList.contains('collapsed')) {
+        this.classList.add('btn-active');
+      }
+    });
+  });
+
+

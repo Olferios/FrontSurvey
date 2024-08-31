@@ -5,6 +5,12 @@ body {
     background-color: #f0f4f8;
     color: #333;
 }
+.btn-active {
+    background-color: #007bff; /* Color de fondo del botón activo */
+    color: #fff; /* Color del texto del botón activo */
+    border-color: #007bff; /* Color del borde del botón activo */
+  }
+  
 
 header {
     background-color: #0077b6;

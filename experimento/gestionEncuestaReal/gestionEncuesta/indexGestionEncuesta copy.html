@@ -35,42 +35,48 @@
   </nav>
 
   <main>
-    
+
 
 
     <!-- #################
        ESTES ES EL OTRO EJEMPLO
        #########################
         -->
-        <p>
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" data-bs-hide=".collapse.show">
-            Gestión Encuesta
-          </button>
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2" data-bs-hide=".collapse.show">
-            Gestión Capitulos
-          </button>
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" data-bs-hide=".collapse.show">
-            Gestión Preguntas
-          </button>
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5" data-bs-hide=".collapse.show">
-            Gestión SubPreguntas
-          </button>
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4" data-bs-hide=".collapse.show">
-            Gestión Opción Respuestas
-          </button>
-        </p>
-        <!-- ***********************
+    <p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+        aria-expanded="false" aria-controls="collapseExample" data-bs-hide=".collapse.show">
+        Gestión Encuesta
+      </button>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
+        aria-expanded="false" aria-controls="collapseExample2" data-bs-hide=".collapse.show">
+        Gestión Capitulos
+      </button>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3"
+        aria-expanded="false" aria-controls="collapseExample3" data-bs-hide=".collapse.show">
+        Gestión Preguntas
+      </button>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5"
+        aria-expanded="false" aria-controls="collapseExample5" data-bs-hide=".collapse.show">
+        Gestión SubPreguntas
+      </button>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4"
+        aria-expanded="false" aria-controls="collapseExample4" data-bs-hide=".collapse.show">
+        Gestión Opción Respuestas
+      </button>
+    </p>
+    <!-- ***********************
          ***************************
          Boton encuesta
          *****************************
          *****************************-->
     <div class="collapse" id="collapseExample">
       <div class="card card-body">
+        <h2 class="mb-4 text-center">Gestión de Encuestas</h2>
         <table class="table">
           <thead>
             <tr>
               <th scope="col">Id encuesta</th>
-              <th scope="col">Nombre Encuesta</th>              
+              <th scope="col">Nombre Encuesta</th>
               <th scope="col">Acciones</th>
             </tr>
           </thead>
@@ -79,23 +85,25 @@
               <th scope="row">1</th>
               <td>Mark</td>
               <td>
-                <i class="bi bi-pencil-fill" title="Editar" data-bs-toggle="modal" data-bs-target="#exampleModal" style="cursor: pointer;"></i>
+                <i class="bi bi-pencil-fill" title="Editar" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                  style="cursor: pointer;"></i>
                 <i class="bi bi-trash3-fill" title="Eliminar" style="cursor: pointer;"></i>
-                <i class="bi bi-plus-square-fill" title="Agregar capitulo" data-bs-toggle="modal" data-bs-target="#exampleModal2"style="cursor: pointer;"></i>
+                <i class="bi bi-plus-square-fill" title="Agregar capitulo" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal2" style="cursor: pointer;"></i>
 
               </td>
-              
+
             </tr>
             <tr>
               <th scope="row">2</th>
               <td>Jacob</td>
               <td>Thornton</td>
-              
+
             </tr>
             <tr>
               <th scope="row">3</th>
               <td colspan="2">Larry the Bird</td>
-              
+
             </tr>
           </tbody>
         </table>
@@ -109,12 +117,13 @@
          *****************************-->
     <div class="collapse" id="collapseExample2">
       <div class="card card-body">
+        <h2 class="mb-4 text-center">Gestión de Capitulos</h2>
         <table class="table">
           <thead>
             <tr>
               <th scope="col">Id encuesta</th>
               <th scope="col">Nombre Encuesta</th>
-              <th scope="col">Capitulo</th>              
+              <th scope="col">Capitulo</th>
               <th scope="col">Acciones</th>
             </tr>
           </thead>
@@ -127,7 +136,8 @@
                  *¨************************* -->
               <td>
                 <div class="btn-group">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside"
+                    data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
                     Seleccione Capitulo
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
@@ -138,23 +148,25 @@
                 </div>
               </td>
               <td>
-                <i class="bi bi-pencil-fill" title="Editar" data-bs-toggle="modal" data-bs-target="#exampleModal3" style="cursor: pointer;"></i>
+                <i class="bi bi-pencil-fill" title="Editar" data-bs-toggle="modal" data-bs-target="#exampleModal3"
+                  style="cursor: pointer;"></i>
                 <i class="bi bi-trash3-fill" title="Eliminar" style="cursor: pointer;"></i>
-                <i class="bi bi-plus-square-fill" title="Agregar Pregunta" data-bs-toggle="modal" data-bs-target="#exampleModal4" style="cursor: pointer;"></i>
+                <i class="bi bi-plus-square-fill" title="Agregar Pregunta" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal4" style="cursor: pointer;"></i>
 
               </td>
-              
+
             </tr>
             <tr>
               <th scope="row">2</th>
               <td>Jacob</td>
               <td>Thornton</td>
-              
+
             </tr>
             <tr>
               <th scope="row">3</th>
               <td colspan="2">Larry the Bird</td>
-              
+
             </tr>
           </tbody>
         </table>
@@ -168,6 +180,8 @@
          *****************************-->
     <div class="collapse" id="collapseExample3">
       <div class="card card-body">
+        <h2 class="mb-4 text-center">Gestión de Preguntas</h2>
+
         <table class="table">
           <thead>
             <tr>
@@ -247,7 +261,9 @@
          *****************************
          *****************************-->
     <div class="collapse" id="collapseExample4">
-      <div class="card card-body">
+      <div class="card card-body">}
+        <h2 class="mb-4 text-center">Gestión de Opción de Respuestas</h2>
+
         <table class="table">
           <thead>
             <tr>
@@ -255,7 +271,7 @@
               <th scope="col">Nombre Encuesta</th>
               <th scope="col">Capitulo</th>
               <th scope="col">Preguntas</th>
-              <th scope="col">Respuestas</th>              
+              <th scope="col">Respuestas</th>
               <th scope="col">Acciones</th>
             </tr>
           </thead>
@@ -268,7 +284,8 @@
                  DROPDOWN DE CAPITULO
                  *¨************************* -->
                 <div class="btn-group">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside"
+                    data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
                     Seleccione Capitulo
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
@@ -283,7 +300,8 @@
                  *¨************************* -->
               <td>
                 <div class="btn-group">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside"
+                    data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
                     Seleccione Pregunta
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
@@ -296,10 +314,11 @@
               <!-- *************
                  DROPDOWN DE seleccion de Respuesta
                  *¨************************* -->
-              
+
               <td>
                 <div class="btn-group">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside"
+                    data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
                     Seleccione Respuesta
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
@@ -309,25 +328,27 @@
                   </ul>
                 </div>
               </td>
-              
+
               <td>
-                <i class="bi bi-pencil-fill" title="Editar" data-bs-toggle="modal" data-bs-target="#exampleModal8" style="cursor: pointer;"></i>
+                <i class="bi bi-pencil-fill" title="Editar" data-bs-toggle="modal" data-bs-target="#exampleModal8"
+                  style="cursor: pointer;"></i>
                 <i class="bi bi-trash3-fill" title="Eliminar" style="cursor: pointer;"></i>
-                <i class="bi bi-plus-square-fill" title="Agregar Opción Respuesta" data-bs-toggle="modal" data-bs-target="#exampleModal8" style="cursor: pointer;"></i>
+                <i class="bi bi-plus-square-fill" title="Agregar Opción Respuesta" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal8" style="cursor: pointer;"></i>
 
               </td>
-              
+
             </tr>
             <tr>
               <th scope="row">2</th>
               <td>Jacob</td>
               <td>Thornton</td>
-              
+
             </tr>
             <tr>
               <th scope="row">3</th>
               <td colspan="2">Larry the Bird</td>
-              
+
             </tr>
           </tbody>
         </table>
@@ -341,7 +362,7 @@
          *****************************-->
     <div class="collapse" id="collapseExample5">
       <div class="card card-body">
-        <h1>Hola</h1>
+        <h2 class="mb-4 text-center">Gestión de Subpreguntas</h2>
         <table class="table">
           <thead>
             <tr>
@@ -350,7 +371,7 @@
               <th scope="col">Capitulo</th>
               <th scope="col">Preguntas</th>
               <th scope="col">SubPreguntas</th>
-                            
+
               <th scope="col">Acciones</th>
             </tr>
           </thead>
@@ -363,7 +384,8 @@
                  DROPDOWN DE CAPITULO
                  *¨************************* -->
                 <div class="btn-group">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside"
+                    data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
                     Seleccione Capitulo
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
@@ -378,7 +400,8 @@
                  *¨************************* -->
               <td>
                 <div class="btn-group">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside"
+                    data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
                     Seleccione Pregunta
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
@@ -391,42 +414,46 @@
               <!-- *************
                  DROPDOWN DE SubPregunta
                  *¨************************* -->
-                 <td>
-                  <div class="btn-group">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
-                      Seleccione Pregunta
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
-                      <li><a class="dropdown-item" href="#">SubPregunta 1</a></li>
-                      <li><a class="dropdown-item" href="#">SubPregunta 2</a></li>
-                      <li><a class="dropdown-item" href="#">SubPregunta 3</a></li>
-                    </ul>
-                  </div>
-                </td>
+              <td>
+                <div class="btn-group">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside"
+                    data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                    Seleccione Pregunta
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+                    <li><a class="dropdown-item" href="#">SubPregunta 1</a></li>
+                    <li><a class="dropdown-item" href="#">SubPregunta 2</a></li>
+                    <li><a class="dropdown-item" href="#">SubPregunta 3</a></li>
+                  </ul>
+                </div>
+              </td>
               <!-- *************
                  DROPDOWN DE Acciones
                  *¨************************* -->
-              
-              
+
+
               <td>
-                <i class="bi bi-pencil-fill" title="Editar" data-bs-toggle="modal" data-bs-target="#exampleModalSubpregunta" style="cursor: pointer;"></i>
+                <i class="bi bi-pencil-fill" title="Editar" data-bs-toggle="modal"
+                  data-bs-target="#exampleModalSubpregunta" style="cursor: pointer;"></i>
                 <i class="bi bi-trash3-fill" title="Eliminar" style="cursor: pointer;"></i>
-                <i class="bi bi-receipt" title="Agregar SubPregunta" data-bs-toggle="modal" data-bs-target="#exampleModal7" style="cursor: pointer;"></i>
-                <i class="bi bi-plus-square-fill" title="Agregar Opción Respuesta" data-bs-toggle="modal" data-bs-target="#exampleModal6" style="cursor: pointer;"></i>
+                <i class="bi bi-receipt" title="Agregar SubPregunta" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal7" style="cursor: pointer;"></i>
+                <i class="bi bi-plus-square-fill" title="Agregar Opción Respuesta" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal6" style="cursor: pointer;"></i>
 
               </td>
-              
+
             </tr>
             <tr>
               <th scope="row">2</th>
               <td>Jacob</td>
               <td>Thornton</td>
-              
+
             </tr>
             <tr>
               <th scope="row">3</th>
               <td colspan="2">Larry the Bird</td>
-              
+
             </tr>
           </tbody>
         </table>
@@ -498,7 +525,7 @@
         </div>
       </div>
     </div>
-     <!-- #####################
+    <!-- #####################
    #########################
               Modal Editar Capitulo
     ########################
@@ -628,7 +655,8 @@
               <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Seleccione Opción de respuesta</label>
                 <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
                     Seleccione opción de respuesta
                   </button>
                   <ul class="dropdown-menu">
@@ -637,9 +665,9 @@
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </div>
-                
+
               </div>
-              
+
             </form>
           </div>
           <div class="modal-footer">
@@ -668,7 +696,7 @@
                 <label for="recipient-name" class="col-form-label">Numero SubPregunta</label>
                 <input type="text" class="form-control" id="recipient-name">
               </div>
-             
+
               <div class="mb-3">
                 <label for="message-text" class="col-form-label">Escriba la Subpregunta aqui </label>
                 <textarea class="form-control" id="message-text"></textarea>
@@ -682,7 +710,7 @@
         </div>
       </div>
     </div>
-        <!-- #####################
+    <!-- #####################
    #########################
               Modal Editar Respuesta
     ########################
@@ -700,7 +728,8 @@
               <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Seleccione Opción de respuesta</label>
                 <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
                     Seleccione opción de respuesta
                   </button>
                   <ul class="dropdown-menu">
@@ -709,49 +738,51 @@
                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </div>
-                
+
               </div>
-              
+
             </form>
+          </div>
         </div>
       </div>
-    </div>
-     <!-- #####################
+      <!-- #####################
    #########################
               Modal Agregar  Pregunta
     ########################
     ########################-->
 
-    <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Crear Opción Respuesta </h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label for="recipient-name" class="col-form-label">Nnombre opción respuesta</label>
-                <input type="text" class="form-control" id="recipient-name">
-              </div>
-              
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-            <button type="button" class="btn btn-primary">Crear Opción respuesta</button>
+      <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Crear Opción Respuesta </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Nnombre opción respuesta</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-primary">Crear Opción respuesta</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
       <!-- #####################
    #########################
               Modal Editar Subpregunta
     ########################
     ########################-->
-    <div class="modal fade" id="exampleModalSubpregunta" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    </div>
+    <div class="modal fade" id="exampleModalSubpregunta" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -785,10 +816,11 @@
         </div>
       </div>
     </div>
-   
-      
 
-    
+
+
+
+
   </main>
 </body>
 <script src="appGestion.js"></script>
