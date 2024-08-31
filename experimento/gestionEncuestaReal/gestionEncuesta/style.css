@@ -121,6 +121,7 @@ main {
 }
 
 
+/* Estilos a editar en la tabla  */
 .bi-pencil-fill, .bi-trash3-fill, .bi-plus-square-fill, .bi-receipt {
     color: #007bff; /* Color por defecto */
     transition: color 0.3s ease-in-out;
